@@ -1,8 +1,8 @@
 class Dt < Formula
-  desc "Diff and run commands with time-based history"
+  desc "Run commands, record outputs over time, and diff results with an interactive TUI."
   homepage "https://github.com/luw2007/diff_by_time"
-  url "https://github.com/luw2007/diff_by_time/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "2969ff421463cd8e1e9374ec032af7ad81bbf9905dc3558762b8bcef4506adbe"
+  url "https://github.com/luw2007/diff_by_time/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "8e3f2960a84f12104b5cb5ec7dab6da0f0cf3b153c88083657f0af9c5857cc48"
   license "MIT"
 
   depends_on "rust" => :build
@@ -16,3 +16,4 @@ class Dt < Formula
     assert_match version.to_s, output
   end
 end
+
