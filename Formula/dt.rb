@@ -1,8 +1,8 @@
 class Dt < Formula
   desc "Run commands, record outputs over time, and diff results with an interactive TUI."
   homepage "https://github.com/luw2007/diff_by_time"
-  url "https://github.com/luw2007/diff_by_time/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "1fba17241a3068ddc0376c14887fbd8c2411d95e9510712b607eacc063323ac1"
+  url "https://github.com/luw2007/diff_by_time/archive/refs/tags/v1.2.1.tar.gz"
+  sha256 "931cf079dfbca6109030ed7a15e006ec07634d380240f19ae5c31eaddbbb3103"
   license "MIT"
 
   depends_on "rust" => :build
