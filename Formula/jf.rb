@@ -7,7 +7,7 @@ class Jf < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/luw2007/llm_json_formatter/releases/download/v#{version}/jf-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "82ab79f6c665a0f20a3ae2c2bac9fb397bf30fd937ddedb612e6b6fc664168b9"
+      sha256 "cf2eae65a411aec03428d2dc47410176e0d8f23e00bc44cd8e1ce976e8e0ed9f"
     else
       url "https://github.com/luw2007/llm_json_formatter/releases/download/v#{version}/jf-v#{version}-x86_64-apple-darwin.tar.gz"
       sha256 "REPLACE_WITH_X86_64_SHA256_WHEN_AVAILABLE"
