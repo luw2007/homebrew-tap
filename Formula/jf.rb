@@ -7,7 +7,7 @@ class Jf < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/luw2007/llm_json_formatter/releases/download/v#{version}/jf-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "bbd815ea7bdcc0d7710daef6a573fb8eccd34b4504a1c334cafc9e6821598603"
+      sha256 "04c5bc6bb6624515ad3b9f7e77b7cf6c7c2e10b4abd2bc4525f996382696eb48"
     else
       odie "Intel macOS binary is not published for v#{version} yet."
     end
