@@ -9,9 +9,11 @@ class SkillOverlay < Formula
 
   def install
     system "cargo", "install", *std_cargo_args
+    bin.install_symlink "skill-overlay" => "overlay"
   end
 
   test do
     assert_match "skill-overlay", shell_output("#{bin}/skill-overlay --help")
+    assert_match "skill-overlay", shell_output("#{bin}/overlay --help")
   end
 end
