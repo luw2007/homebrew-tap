@@ -2,7 +2,6 @@ class Jf < Formula
   desc "LLM-optimized JSON formatter for better readability and token efficiency"
   homepage "https://github.com/luw2007/llm_json_formatter"
   license "MIT"
-  version "0.1.6"
 
   on_macos do
     if Hardware::CPU.arm?
