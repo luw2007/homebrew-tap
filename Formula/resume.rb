@@ -5,21 +5,21 @@ class Resume < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/luw2007/resume/releases/download/v0.3.7/resume-v0.3.7-aarch64-apple-darwin.tar.gz"
-      sha256 "bba680402dbf344c4ac01e4f95074c122956a4bcdf3b89c2482bd118f6ca4eaa"
+      url "https://github.com/luw2007/resume/releases/download/v0.4.0/resume-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3b0b8acc9c4ff19c729cb24d7e947aa8e174dd0f753fbb0977ccfc2203a861f0"
     else
-      url "https://github.com/luw2007/resume/releases/download/v0.3.7/resume-v0.3.7-x86_64-apple-darwin.tar.gz"
-      sha256 "1751de402536f7a2b33b7e825ba6e82cc4a1b862381f991eb3bd10afff91472b"
+      url "https://github.com/luw2007/resume/releases/download/v0.4.0/resume-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ce4f8f5520b4dd72c9b92ca154f26067cf1288ab75e135165fb3a8b87df4b6a8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/luw2007/resume/releases/download/v0.3.7/resume-v0.3.7-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "42836380a57f863980a259ff5e8e46e29c17397be00721e3b3757aaa9a7138ae"
+      url "https://github.com/luw2007/resume/releases/download/v0.4.0/resume-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a6d03b6fd90c671b1aca6fc6103475ca0d18d70a59be5c579d8814b90fa891c2"
     else
-      url "https://github.com/luw2007/resume/releases/download/v0.3.7/resume-v0.3.7-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2964d351b5912bb0c6356b80739a0440c38dadde822968d88c88184397a1c24f"
+      url "https://github.com/luw2007/resume/releases/download/v0.4.0/resume-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "da46e141e469f4b4b7f5deddda20471a46dbadcdaa5d48c76c278e7fd7ed8b4d"
     end
   end
 
